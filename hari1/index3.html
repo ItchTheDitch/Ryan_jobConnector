@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", inital-scale="1">
+    <title></title>
+
+
+  <style>
+
+
+      #element1{
+        color: rgb(151, 22, 221);
+
+
+      }
+
+
+      .myClass{
+        width: 800px;
+        height: 600px;
+        background-color:#75cff0;
+
+
+        background-repeat: no-repeat;
+        background-position: center;
+
+      }
+      .parallax{
+        /*the image used*/
+        background-image: url("img/1.png");
+
+        /*set a specific height*/
+        min-height: 500px;
+
+        /*create the parallax scrolling effect*/
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #content{
+        border: 5px solid rgb(140, 249, 158);
+      }
+      #element1:hover{
+        color: rgb(230, 222, 185);
+
+
+      }
+
+      #element2{
+        font-family: serif;
+        color: rgb(198, 78, 28);
+      }
+
+  </style>
+    <script>
+
+      function ShowAlert(){
+        alert('Halo.....');
+      }
+    </script>
+
+
+</head>
+
+
+  <body>
+    <div class = "myClass">
+      <div id = "content">
+        </div>
+          <input type="button" value="Click me !" onclick="ShowAlert()">
+
+        <div>
+
+    </div>
+    <script>
+      document.write("<hr>");
+      document.write("hello world wide web");
+      document.write ("<hr>");
+    </script>
+
+
+
+  </body>
+</html>

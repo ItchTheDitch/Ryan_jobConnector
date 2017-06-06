@@ -1,0 +1,68 @@
+html{
+  font-family:  'Cormorant SC', serif;
+}
+
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.classParent{
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border: 5px solid red;
+
+
+}
+
+.myClass{
+  border-style: dotted;
+  border-width: 5px;
+  border-color: rgb(183, 107, 242);
+  background-color: rgb(183, 254, 162);
+
+  margin: 100px;
+
+  padding: 0px 0px 0px 50px;
+
+  height: 100px;
+  width: 50%;
+
+  max-height: 200px;
+
+  outline-style: solid;
+  outline-width: 20px;
+
+  text-align: center;
+
+  text-transform: capitalize;
+
+  letter-spacing: 10px;
+
+  line-height: 2;
+
+  word-spacing: 20px;
+
+  position: absolute;
+  bottom: 0;
+
+  z-index: -1;
+
+}
+
+
+.menu{
+  background-color: rgb(55, 153, 255);
+}
+
+.menu li{
+  display: inline;
+  background-color: rgb(195, 222, 32);
+  margin-right: 10px;
+
+}
+.menu li a {
+  text-decoration: none;
+}

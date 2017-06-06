@@ -1,0 +1,41 @@
+body{
+  background-color:rgba(0, 0, 0, 0.20);
+}
+
+.menu{
+ float: right;
+}
+
+.menu li{
+  display: inline;
+  background-color: rgb(222, 152, 32);
+  padding: 20px 20px 20px 20px;
+  margin-right: 5px;
+  border-style: outset;
+
+
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.h1{
+  font-size:
+}
+.homie{
+  color: orange;
+}
+.paragraph{
+ background-color: rgb(255, 255, 255);
+ padding: 20px 20px 20px 20px;
+ margin-top: 50px;
+ border-style: outset;
+}
+
+.footer{
+  text-align: right;
+  font-size: 10px;
+
+
+}
